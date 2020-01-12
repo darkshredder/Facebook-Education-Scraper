@@ -3,7 +3,7 @@ text=[];
 console.log('hi')
 for(var i=0;i<userinfo.length;i++){
 
-    if(userinfo[i].textContent[0]=="W" && userinfo[i].textContent[1]=="e"){
+    if(userinfo[i].textContent[0]=="W" && userinfo[i].textContent[1]=="e" && userinfo[i].textContent[2]=="n"){
         console.log(userinfo[i].textContent)
         text.push(userinfo[i].textContent);
     }
